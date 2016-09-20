@@ -45,8 +45,16 @@ namespace Tests
 	{
 		public FastRunConfig()
 		{
-			Add(Job.Dry.With(Runtime.Core).With(Jit.Host));
-			Add(Job.Dry.With(Runtime.Clr).With(Jit.Host));
+			Add(Job.Dry
+                .With(Runtime.Core)
+                .With(Jit.Host)
+                .WithWarmupCount(5)
+                .WithTargetCount(10));
+			Add(Job.Dry
+                .With(Runtime.Clr)
+                .With(Jit.Host)
+                .WithWarmupCount(5)
+                .WithTargetCount(10));
 			Add(AsciiDocExporter.Default);
 		}
 	}
