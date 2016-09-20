@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Reports>
+  <Report Name="Report.Name1" Date="2016-08-01T13:00:00.000Z" Commit="commit-sha1">
+    <Function Id="0x00000002" FQN="[Garbage collection]" TotalTime="1029" OwnTime="1029" Calls="176" Instances="19">
+      <Instance TotalTime="5" OwnTime="5" Calls="1" />
+      <Instance TotalTime="35" OwnTime="35" Calls="6" />
+      <Instance TotalTime="6" OwnTime="6" Calls="1" />
+    </Function>
+    <Function Id="0x00B00629" FQN="Elasticsearch.Net.ElasticLowLevelClient.Bulk" TotalTime="25776" OwnTime="0" Calls="2095" Instances="1" />
+    <Function Id="0x00B00627" FQN="Elasticsearch.Net.ElasticLowLevelClient.DoRequest" TotalTime="25776" OwnTime="0" Calls="2095" Instances="1" />
+    <Function Id="0x00B00BB6" FQN="Elasticsearch.Net.ElasticsearchSerializerExtensions.SerializeToBytes" TotalTime="4074" OwnTime="12" Calls="699" Instances="1" />
+    <Function Id="0x00A0213D" FQN="Nest.ElasticContractResolver.CreateContract" TotalTime="24" OwnTime="0" Calls="4" Instances="3">
+      <Instance TotalTime="6" OwnTime="0" Calls="1" />
+      <Instance TotalTime="6" OwnTime="0" Calls="1" />
+      <Instance TotalTime="12" OwnTime="0" Calls="2" />
+    </Function>
+  </Report>
+  <Report Name="Report.Name2" Date="2016-08-01T13:00:00.000Z" Commit="commit-sha1">
+    <Function Id="0x00000002" FQN="[Garbage collection]" TotalTime="1029" OwnTime="1029" Calls="176" Instances="19">
+      <Instance TotalTime="5" OwnTime="5" Calls="1" />
+      <Instance TotalTime="35" OwnTime="35" Calls="6" />
+      <Instance TotalTime="6" OwnTime="6" Calls="1" />
+    </Function>
+    <Function Id="0x00B00629" FQN="Elasticsearch.Net.ElasticLowLevelClient.Bulk" TotalTime="25776" OwnTime="0" Calls="2095" Instances="1" />
+    <Function Id="0x00B00627" FQN="Elasticsearch.Net.ElasticLowLevelClient.DoRequest" TotalTime="25776" OwnTime="0" Calls="2095" Instances="1" />
+    <Function Id="0x00B00BB6" FQN="Elasticsearch.Net.ElasticsearchSerializerExtensions.SerializeToBytes" TotalTime="4074" OwnTime="12" Calls="699" Instances="1" />
+    <Function Id="0x00A0213D" FQN="Nest.ElasticContractResolver.CreateContract" TotalTime="24" OwnTime="0" Calls="4" Instances="3">
+      <Instance TotalTime="6" OwnTime="0" Calls="1" />
+      <Instance TotalTime="6" OwnTime="0" Calls="1" />
+      <Instance TotalTime="12" OwnTime="0" Calls="2" />
+    </Function>
+  </Report>
+</Reports>
